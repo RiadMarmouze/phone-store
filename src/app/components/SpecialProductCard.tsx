@@ -6,7 +6,7 @@ const SpecialProductCard = ({ product, index }: { product: Product ,index:number
 
   return (
 
-    <div className={`flex flex-row gap-4 flex-shrink-0  p-5 rounded-3xl ${index%2 === 0?"custom-gradient-bg-special-product1":"custom-gradient-bg-special-product2"} 
+    <div className={`flex flex-row gap-4 flex-shrink-0 p-5 rounded-3xl ${index%2 === 0?"custom-gradient-bg-special-product1":"custom-gradient-bg-special-product2"} 
                     max-sm:flex-col-reverse max-sm:w-full max-sm:items-center`}>
 
       <div className="w-[200px] flex flex-col justify-center items-center gap-3">

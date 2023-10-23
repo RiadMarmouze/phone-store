@@ -48,8 +48,8 @@ const SpecialProductsScroll = ({ ids }: { ids: string[] }) => {
   return (
 
     <div className="flex flex-row gap-5 my-5 
-                      overflow-x-auto overflow-y-hidden scrollbar-hide scroll-smooth
-                      max-sm:flex-col max-sm:items-center">
+                    overflow-x-s overflow-y-hidden scrollbar-hide scroll-smooth
+                    max-sm:flex-col max-sm:items-center">
       {products.map((product: Product, index) => (
         <SpecialProductCard key={index} product={product} index={index}/>
       ))}

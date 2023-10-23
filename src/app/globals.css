@@ -20,7 +20,7 @@
   }
 
   .input {
-    @apply  text-base w-full leading-normal pl-5 border-none flex-1 outline-none bg-transparent text-color3 ;
+    @apply  text-base leading-normal border-none outline-none bg-transparent text-color3;
   }
 }
 

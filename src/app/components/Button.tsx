@@ -15,7 +15,7 @@ const Button = ({
   }) => {
     return (
       <button
-        className={`flex justify-center items-center 
+        className={`flex justify-center items-center whitespace-nowrap
                     ${fullWidth} px-6 py-3 rounded-full 
                     ${backgroundColor} border ${borderColor} 
                     font-montserrat font-bold ${fontSize} leading-none ${textColor} `}
